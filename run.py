@@ -58,7 +58,7 @@ def preprocessor(dengue, n_seq, frac_train=0.75):
     return [TRAIN_X, TRAIN_Y, TEST_X, TEST_Y]   
 
 
-def build_model(layers, dropout_rate=0.5, activation='relu',loss='mse',optimizer='rmsprop',metrics=['accuracy']):
+def build_model(layers, dropout_rate=0.5, activation='linear',loss='mse',optimizer='rmsprop',metrics=['accuracy']):
     """
     A simple RNN will be built with 2 LSTM layers:
 
