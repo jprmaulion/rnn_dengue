@@ -1,5 +1,5 @@
 # Forecasting dengue cases in Metro Manila, Philippines using RNNs
-This repo aims to forecast dengue cases in the Metro Manila, Philippines using and RNNs. All related info are located on `run.py`.
+This repo aims to forecast dengue cases in Metro Manila, Philippines using RNNs. All related info are located on `run.py`.
 
 The following are needed to run this repo:
 1. Pandas
