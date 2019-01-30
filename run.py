@@ -11,7 +11,7 @@ import sklearn.preprocessing as prep
 # PHILIPPINES USING RNNs AND TENSORFLOW
 
 
-def skelarn_sscaler(xtrain, xtest):
+def sklearn_sscaler(xtrain, xtest):
     """
     This performs sklearn's StandardScaler [1] on training and test sets
 
@@ -45,7 +45,7 @@ def preprocessor(dengue, n_seq, frac_train=0.75):
     row = round(frac_train * result.shape[0])
     train = result[: int(row), :]
     
-    train, result = skelarn_sscaler(train, result)    
+    train, result = sklearn_sscaler(train, result)    
     
     TRAIN_X = train[:, : -1]
     TRAIN_Y = train[:, -1][: ,-1]
